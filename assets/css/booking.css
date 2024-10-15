@@ -1,0 +1,129 @@
+.contact-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 100%;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: rgba(249, 245, 232, 0.8);
+}
+
+.contact-img {
+  margin: 0 auto;
+}
+
+.contact-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.contact-icon {
+  fill: var(--title);
+  margin-right: 10px;
+}
+
+.contact-text,
+.contact-link {
+  color: var(--text);
+  font-size: 14px;
+}
+
+.contact-link {
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: #bc992e;
+  }
+}
+
+.application-form {
+  background-color: rgba(249, 245, 232, 0.8);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  max-width: 100%;
+  margin: 0 auto;
+  color: var(--text);
+}
+
+.input-container {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.icon {
+  position: absolute;
+  left: 10px;
+  top: 8px;
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+  fill: var(--title);
+}
+
+.input-field,
+.select-field,
+.textarea-field {
+  padding: 10px 10px 10px 30px;
+  border: 1px solid var(--title);
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  color: var(--text);
+
+  /* &:focus {
+    border-color: #ffbf00;
+    background-color: #f7f3e9;
+    outline: none;
+  } */
+}
+
+.textarea-field {
+  height: 100px;
+  resize: none;
+}
+
+.checkbox {
+  margin-right: 5px;
+  accent-color: var(--title);
+}
+
+.submit-button {
+  background-color: var(--title);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button :hover {
+  background-color: #ffbf00;
+}
+
+@media (min-width: 900px) {
+  .contact-wrap {
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1000px;
+  }
+
+  .application-form {
+    padding: 40px;
+    max-width: 500px;
+  }
+
+  .contact-item {
+    height: 450px;
+    padding: 20px;
+  }
+}
