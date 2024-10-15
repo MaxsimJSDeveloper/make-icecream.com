@@ -21,8 +21,8 @@
     <?php include './public/components/header.php' ?>
     <main>
         <?php include './public/components/main.php' ?>
-        <?php include './public/components/services.php' ?>
-        <?php include './public/components/additional-services.php' ?>
+        <?php include './public/components/about-us.php' ?>
+        <?php include './public/components/goods.php' ?>
         <?php include './public/components/advantages.php' ?>
         <?php include './public/components/contacts.php' ?>
     </main>
