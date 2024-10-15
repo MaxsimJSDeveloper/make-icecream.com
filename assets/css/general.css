@@ -1,8 +1,11 @@
 :root {
-  --font-family: "Lato", sans-serif;
-  --second-family: "Playfair Display", sans-serif;
-  --title: #ec9704;
-  --text: #333;
+  --text: #3f3f3f;
+  --title: #fafafa;
+  --hover: #92dad9;
+  --tittle-wrap: rgba(172, 104, 105, 0.6);
+  --cards-wrap: rgba(236, 164, 164, 0.4);
+  --font-family: "Quicksand", sans-serif;
+  --second-family: "Poppins", sans-serif;
 }
 
 * {

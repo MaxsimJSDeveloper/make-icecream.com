@@ -1,5 +1,5 @@
 .header {
-  background: linear-gradient(to bottom, #b4a486, #d7965d);
+  background: var(--hover);
   height: 80px;
   width: 100%;
 }
@@ -18,7 +18,6 @@
 .logo-svg {
   width: 60px;
   height: 70px;
-  fill: #bc992e;
 }
 
 .nav {
@@ -45,7 +44,7 @@
 .burger-menu {
   display: flex;
   cursor: pointer;
-  fill: #ffb74d;
+  fill: var(--text);
   background-color: inherit;
   border: none;
 }

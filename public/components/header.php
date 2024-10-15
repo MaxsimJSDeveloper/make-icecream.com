@@ -2,15 +2,15 @@
     <div class="header-container">
         <div class="logo" role="img" aria-label="Логотип компанії">
             <svg class="logo-svg">
-                <use href="./assets/img/symbol-defs.svg#icon-candle"></use>
+                <use href="./assets/img/symbol-defs.svg#icon-ice-cream"></use>
             </svg>
         </div>
         <nav class="nav" aria-label="Основна навігація">
             <ul class="nav-list">
-                <li class="nav-item"><a class="nav-item-link" href="#services">Послуги</a></li>
-                <li class="nav-item"><a class="nav-item-link" href="#parties">Вечірки</a></li>
-                <li class="nav-item"><a class="nav-item-link" href="#advantages">Переваги</a></li>
-                <li class="nav-item"><a class="nav-item-link" href="#booking">Контакти</a></li>
+                <li class="nav-item"><a class="nav-item-link" href="#about">Про нас</a></li>
+                <li class="nav-item"><a class="nav-item-link" href="#set">Набори</a></li>
+                <li class="nav-item"><a class="nav-item-link" href="#reviews">Відгуки</a></li>
+                <li class="nav-item"><a class="nav-item-link" href="#booking">Замовити</a></li>
             </ul>
         </nav>
         <button class="burger-menu" id="burger-menu" type="button" aria-label="Відкрити меню">
