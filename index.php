@@ -7,33 +7,33 @@
     <meta http-equiv="Cache-control" content="no-transform" />
     <meta http-equiv="Cache-control" content="no-cache" />
     <meta name="google" content="nopagereadaloud" />
-    <link rel="icon" type="image/svg+xml" href="./assets/img/favicon.webp" />
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" type="image/svg+xml" href="./img/favicon.webp" />
+    <link rel="stylesheet" href="./css/style.css">
 
-    <title>Свічкова майстерня - створення свічок для пар та свят</title>
+    <title>Набір для приготування морозива - створіть смачні десерти вдома</title>
 
-    <meta name="description" content="Запрошуємо вас до нашої свічкової майстерні, де ви можете навчитися створювати унікальні свічки для особливих моментів, індивідуальних занять, свят і корпоративів." />
-    <meta name="keywords" content="свічкова майстерня, свічки для пар, майстер-класи, індивідуальні заняття, свята, корпоративи, створення свічок" />
+    <meta name="description" content="Придбайте наш набір для приготування морозива та навчіться створювати смачні морозивні десерти вдома. Ідеально підходить для сімейних свят, вечірок та особливих моментів!" />
+    <meta name="keywords" content="набір для морозива, домашнє морозиво, рецепти морозива, смачні десерти, ідеї для вечірок, набір для приготування" />
     <meta name="robots" content="index, follow" />
 </head>
 
 <body>
-    <?php include './public/components/header.php' ?>
+    <?php include './components/header.php' ?>
     <main>
-        <?php include './public/components/main.php' ?>
-        <?php include './public/components/about-us.php' ?>
-        <?php include './public/components/goods.php' ?>
-        <?php include './public/components/advantages.php' ?>
-        <?php include './public/components/contacts.php' ?>
+        <?php include './components/main.php' ?>
+        <?php include './components/about-us.php' ?>
+        <?php include './components/goods.php' ?>
+        <?php include './components/reviews.php' ?>
+        <?php include './components/contacts.php' ?>
     </main>
-    <?php include './public/components/footer.php' ?>
+    <?php include './components/footer.php' ?>
 
-    <?php include './public/components/nav-modal.php' ?>
-    <?php include './public/components/cookie-notice.php' ?>
+    <?php include './components/nav-modal.php' ?>
+    <?php include './components/cookie-notice.php' ?>
     
-    <script src="./assets/js/cookieNotice.js" defer></script>
-    <script src="./assets/js/modal.js" defer></script>
-    <script src="./assets/js/formHandler.js" defer></script>
+    <script src="./js/cookieNotice.js" defer></script>
+    <script src="./js/modal.js" defer></script>
+    <script src="./js/formHandler.js" defer></script>
 </body>
 
 </html>

@@ -3,7 +3,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #f9f5e8;
+  background-color: rgb(172, 104, 105);
   padding: 15px;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -14,11 +14,11 @@
 .cookie-notice .notice {
   margin: 0 0 10px;
   display: block;
-  color: #ffa000;
+  color: var(--text);
 }
 
 .link-to-policy {
-  color: #00bcd4;
+  color: var(--hover);
   text-decoration: underline;
 }
 

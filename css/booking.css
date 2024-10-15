@@ -12,7 +12,7 @@
   flex-direction: column;
   padding: 15px;
   border-radius: 15px;
-  background-color: rgba(249, 245, 232, 0.8);
+  background-color: rgba(172, 104, 105, 0.3);
 }
 
 .contact-img {
@@ -26,28 +26,28 @@
 }
 
 .contact-icon {
-  fill: var(--title);
+  fill: var(--hover);
   margin-right: 10px;
 }
 
 .contact-text,
 .contact-link {
-  color: var(--text);
+  color: var(--title);
   font-size: 14px;
 }
 
 .contact-link {
   transition: color 0.3s ease;
+}
 
-  &:hover {
-    color: #bc992e;
-  }
+.contact-link:hover {
+  color: var(--hover);
 }
 
 .application-form {
-  background-color: rgba(249, 245, 232, 0.8);
-  padding: 10px;
-  border-radius: 10px;
+  background-color: rgba(172, 104, 105, 0.3);
+  padding: 24px;
+  border-radius: 15px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   max-width: 100%;
   margin: 0 auto;
@@ -66,7 +66,7 @@
   width: 20px;
   height: 20px;
   pointer-events: none;
-  fill: var(--title);
+  fill: var(--hover);
 }
 
 .input-field,
@@ -78,12 +78,6 @@
   width: 100%;
   box-sizing: border-box;
   color: var(--text);
-
-  /* &:focus {
-    border-color: #ffbf00;
-    background-color: #f7f3e9;
-    outline: none;
-  } */
 }
 
 .textarea-field {
@@ -93,11 +87,11 @@
 
 .checkbox {
   margin-right: 5px;
-  accent-color: var(--title);
+  accent-color: var(--hover);
 }
 
 .submit-button {
-  background-color: var(--title);
+  background-color: var(--hover);
   color: #fff;
   border: none;
   padding: 10px;
@@ -106,8 +100,16 @@
   transition: background-color 0.3s ease;
 }
 
-.submit-button :hover {
-  background-color: #ffbf00;
+.submit-button:hover {
+  background-color: #00796b;
+}
+
+.form-link-policy {
+  color: var(--hover);
+}
+
+.form-link-policy:hover {
+  color: #00796b;
 }
 
 @media (min-width: 900px) {
