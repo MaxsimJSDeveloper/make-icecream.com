@@ -1,9 +1,10 @@
-<header class="header">
+<header class="header" itemscope itemtype="http://schema.org/WPHeader">
     <div class="header-container">
         <div class="logo" role="img" aria-label="Логотип компанії">
             <svg class="logo-svg">
                 <use href="./img/symbol-defs.svg#icon-ice-cream"></use>
             </svg>
+            <a class="logo-txt" href="" itemprop="name">make icecream</a>
         </div>
         <nav class="nav" aria-label="Основна навігація">
             <ul class="nav-list">

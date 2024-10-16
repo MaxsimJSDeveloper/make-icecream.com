@@ -1,9 +1,9 @@
-<section id="about" class="section-indentation">
+<section id="about" class="section-indentation" itemscope itemtype="http://schema.org/Organization">
     <div class="container">
         <div class="title-wrap">
-            <h2 class="title">Про нас</h2>
+            <h2 class="title" itemprop="name">Про нас</h2>
         </div>
-        <p class="services-descr">
+        <p class="services-descr" itemprop="description">
             Ми створюємо можливість перетворити приготування морозива вдома на справжнє задоволення. Наш набір для приготування морозива — це відмінне рішення для тих, хто хоче експериментувати зі смаками, контролювати інгредієнти та насолоджуватися свіжим морозивом у будь-який час.
             Приготування десертів — це не лише смачна справа, але й цікаве заняття для всієї родини. Завдяки нашому набору ви зможете створювати унікальні рецепти, які відповідатимуть вашим смаковим уподобанням, і додавати інгредієнти за власним вибором.
 
