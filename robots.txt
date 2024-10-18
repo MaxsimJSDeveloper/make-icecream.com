@@ -1,0 +1,2 @@
+Host: https://make-icecream.com/
+Sitemap: https://make-icecream.com/sitemap.xml

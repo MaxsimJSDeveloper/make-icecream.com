@@ -39,9 +39,9 @@
 
       <?php include './components/form.php' ?>
 
-      <div class="success-message" id="successMessage">
-        Дані успішно надіслані!
-      </div>
+        <div id="successMessage" style="display: none;">
+            Дані успішно надіслані!
+        </div>
     </div>
   </div>
 </section>
